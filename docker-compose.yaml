@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    ports:
+     - "9000:9000"
+    image: "jessengolab/springboot-actuator-sample:0.0.1"
